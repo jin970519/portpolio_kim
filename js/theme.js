@@ -16,6 +16,20 @@
 				} else {
 					$('.header_area').removeClass('navbar_fixed');
 				}
+
+				$('.nav-link').css({'color':'#fff'});
+				if(scroll<$('#about').offset().top){
+					$('.nav-link').eq(0).css({'color':'#ffcc1d'});
+				}else if(scroll<$('#skill').offset().top){
+					$('.nav-link').eq(1).css({'color':'#ffcc1d'});
+				}else if(scroll<$('#portfolio').offset().top){
+					$('.nav-link').eq(2).css({'color':'#ffcc1d'});
+				}else if(scroll<$('#contact').offset().top){
+					$('.nav-link').eq(3).css({'color':'#ffcc1d'});
+				}else{
+					$('.nav-link').eq(4).css({'color':'#ffcc1d'});
+				}
+
 			});
 		}
 	}
