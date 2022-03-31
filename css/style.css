@@ -2695,12 +2695,7 @@ h6 {
   padding: 45px 13px;
   text-align: center;
   background: #f9f9fd;
-  cursor: pointer;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s; }
+  cursor: pointer;}
  @media (max-width:1200px){
   .feature_item{
     padding: 45px 10px;
@@ -3103,7 +3098,9 @@ background-position: right;
 background-size: 30% 200px;
 }
 
-
+.feature_item{
+  margin-top: 50px;
+}
 .subscription_box{
   width: 100%;
   }
@@ -3129,7 +3126,7 @@ background-size: 30% 200px;
 
 @media (max-width:1200px){
   .col-lg-12 .contact_left h2{font-size: 15px;
-  padding-top: 70px;
+  padding-top: 20px;
   padding-left: -50px;
 line-height: 35px;}
   .subscription_box img{margin-top: 75px;} 
@@ -3747,11 +3744,16 @@ font-size: 15px;}
 
 
 
-@keyframes col-lg-3{
-  0% {top: -20px;
+@keyframes ii{
+  0% {top: -15px;
   }
-  100% {top: -0px;}
+  100% {top: 5px;}
 }
+.ii{
+    position:relative;
+    left: 0px;
+    top:0;
+    animation: ii 1s ease-in Infinite Alternate;}
 
 @keyframes ball {
 
@@ -3821,7 +3823,7 @@ font-size: 15px;}
   
 
 @media (max-width:1200px){
-  .col-lg-12 h1{padding-bottom: 0;
+  .col-lg-12 h1{padding-bottom: 50px;
   font-size: 45px;}
 }
 @media (max-width:767.5px){
